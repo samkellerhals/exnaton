@@ -28,4 +28,4 @@ Build a container: `docker build . --tag exnaton`
 
 Run the script: `docker run -it -v /home/pop/Development/exnaton/assets:/app/assets exnaton "2021-09-10" "2021-10-01"`
 
-**Note:** You need to mount a local folder to the `/app/assets` folder which is where the data is downloaded to.
+**Note:** You need to mount a local folder to the `/app/assets` folder which is where the data is downloaded to. You also need a `.env` file where you have defined a `EMAIL` and `PASSWORD` to use to authenticate to the API.
