@@ -1,0 +1,4 @@
+assets/
+*.parquet
+*.ipynb
+env/
